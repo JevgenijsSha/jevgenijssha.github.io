@@ -1,4 +1,7 @@
-h1{
-    font-family: 'Open Sans', sans-serif;
-    font-style: italic;
+.main-logo-border {
+    width: 260px;
+    height: 45px;
+    border: 3px solid #696969;
+    text-align: center;
+    line-height: 45px;
 }
