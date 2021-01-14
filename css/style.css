@@ -1,5 +1,5 @@
 .main-head {
-    margin-top: 80px;
+    margin-top: 3%;
 }
 .main-logo-border {
     width: 260px;
@@ -7,4 +7,9 @@
     border: 3px solid #696969;
     text-align: center;
     line-height: 39px;
+}
+.main-logo-border p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
 }
