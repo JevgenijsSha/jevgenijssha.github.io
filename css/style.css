@@ -17,3 +17,36 @@
 .color-logo {
     color: #f15f35;
 }
+.main-nav-bar {
+    width: 35px;
+}
+.line {
+    border-radius: 5px;
+    display: inline-block;
+    width: 38px;
+    height: 4px;
+    background-color: #696969;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform:translateY(-2px) ;
+    -ms-transform:translateY(-2px) ;
+    -o-transform:translateY(-2px) ;
+    transform:translateY(-2px) ;
+}
+.line::before {
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    top; 50%
+    -webkit-transform: translateY(-8px);
+    -moz-transform: translateY(-8px);
+    -ms-transform: translateY(-8px);
+    -o-transform: translateY(-8px);
+    transform: translateY(-8px);
+    content: '';
+    width: 38px;
+    height: 4px;
+    background-color: #696969;
+
+}
